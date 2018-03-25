@@ -9,13 +9,17 @@ import android.media.Image;
 public class Word {
 
     private String mDefaultTranslation;
-
     private String mMiwokTranslation;
-    private int miwokImages;
+    private static final int NO_IMAGE = -1;
+    private int miwokImages = NO_IMAGE;
     public Word(String defaultTranslation, String miwokTranslation,int miwokImage ) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
         miwokImages = miwokImage;
+    }
+    public  Word(String defaultTranslation, String miwokTranslation){
+        mDefaultTranslation = defaultTranslation;
+        mMiwokTranslation = miwokTranslation;
     }
 
      public String getDefaultTranslation() {
@@ -27,5 +31,9 @@ public class Word {
 
     public int getMiwokImage() {
         return miwokImages;
+    }
+
+    public boolean hasImage(){
+        return  miwokImages != NO_IMAGE ;
     }
 }
