@@ -13,13 +13,13 @@ public class Colors extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_colors);
         ArrayList<Word> colors = new ArrayList<Word>();
-        colors.add(new Word("Red","Lal"));
-        colors.add(new Word("Green","Sobuj"));
-        colors.add(new Word("Brown","Badami"));
-        colors.add(new Word("Gray","Dhusor"));
-        colors.add(new Word("Black","Kalo"));
-        colors.add(new Word("White","Sada"));
-        colors.add(new Word("Orange","Komla"));
+        colors.add(new Word("Red","Lal",R.mipmap.ic_launcher));
+        colors.add(new Word("Green","Sobuj",R.mipmap.ic_launcher));
+        colors.add(new Word("Brown","Badami",R.mipmap.ic_launcher));
+        colors.add(new Word("Gray","Dhusor",R.mipmap.ic_launcher));
+        colors.add(new Word("Black","Kalo",R.mipmap.ic_launcher));
+        colors.add(new Word("White","Sada",R.mipmap.ic_launcher));
+        colors.add(new Word("Orange","Komla",R.mipmap.ic_launcher));
 
 
         WordAdapter colorsAdapter = new WordAdapter(this,colors);

@@ -20,16 +20,16 @@ public class Numbers extends AppCompatActivity {
         setContentView(R.layout.activity_numbers);
         //String[] words = new String[10];
         ArrayList<Word> words = new ArrayList<Word>();
-        words.add(new Word("one","ek"));
-        words.add(new Word("two","dui"));
-        words.add(new Word("three","tin"));
-        words.add(new Word("four","car"));
-        words.add(new Word("five","paach"));
-        words.add(new Word("six","choy"));
-        words.add(new Word("seven","sat"));
-        words.add(new Word("eight","aat"));
-        words.add(new Word("nine","noi"));
-        words.add(new Word("ten","dosh"));
+        words.add(new Word("one","ek",R.mipmap.ic_launcher));
+        words.add(new Word("two","dui",R.mipmap.ic_launcher));
+        words.add(new Word("three","tin",R.mipmap.ic_launcher));
+        words.add(new Word("four","car",R.mipmap.ic_launcher));
+        words.add(new Word("five","paach",R.mipmap.ic_launcher));
+        words.add(new Word("six","choy",R.mipmap.ic_launcher));
+        words.add(new Word("seven","sat",R.mipmap.ic_launcher));
+        words.add(new Word("eight","aat",R.mipmap.ic_launcher));
+        words.add(new Word("nine","noi",R.mipmap.ic_launcher));
+        words.add(new Word("ten","dosh",R.mipmap.ic_launcher));
 
 
 
